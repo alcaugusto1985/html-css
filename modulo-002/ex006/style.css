@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* Importando font baixada para a CSS */
+@font-face {
+    font-family: 'Pacifico';
+    src: url(fonts/Pacifico.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'DancingScript';
+    src: url(fonts/DancingScript.ttf) format(truetype);
+}
+/* Importando font baixada para a CSS */
+@font-face {
+    font-family: 'Lobster';
+    src: url(fonts/Lobster.ttf) format(truetype);
+}
+    /*
+        Topos de format() de fontes baixadas::after
+        opentype (fontes otf)
+        truetype (fontes ttf)
+        embedded-opentype
+        truetype-aat (apple advanced typography)
+        svg
+    */
+    
+/* Aplicando as fontes baixadas */
+h1 {
+    font-family: 'Lobster', Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.titulo {
+    font-family: 'Pacifico', Helvetica, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+p {
+    font-family: 'DancingScript', Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.4em;
+}

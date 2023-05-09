@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* Criando efeito degradê no fundo */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #10454F;
+    background-image: linear-gradient(150deg, #818274, #A3AB78, #BDE038);
+    background-attachment: fixed;
+}
+
+section {
+    width: 1000px;
+    margin: auto;
+    background-color: #5062662f;
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px #50626641; /* Configurando sombras na section */
+}
+
+#titulo {
+    margin: 8px;
+    font-size: 2.2em;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.212); /* Configurando sombras no título */
+}
+
+#artigo {
+    padding: 5px;
+}
+
+p {
+    font-style: italic;
+    font-size: 1.1em;
+    text-align: justify;
+    text-indent: 40px; /* Aplicando identação nos parágrafos */
+}
+
+footer {
+    width: 1000px;
+    margin: auto;
+    background-color: #5062662f;
+    margin-top: 10px;
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px #50626641; /* Configurando sombras no footer */
+}
+
+footer > p {
+    font-style: normal;
+    text-align: center;
+    font-weight: bold;
+}

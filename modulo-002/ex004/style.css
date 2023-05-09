@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+body {
+    background-image: linear-gradient(130deg, rgb(127, 127, 230), rgb(59, 59, 161), rgb(36, 36, 104));
+    background-attachment: fixed;
+    color: white;
+}
+/* Manipulação do estilo das fontes com tamanho, peso, decoração e estilo. */
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.1em;
+    font-weight: normal;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-style: italic;
+}
+
+/* 
+Shorthand font
+Ordem de aplicação: font-style, font-weigth, font-size e font-family
+É aplicada em apenas uma linha.
+Ex: font: italic bolder 3em 'work-sans', sans-serif;
+Exemplo abaixo mostrado na prática
+*/
+/* Ordem de aplicação traduzida: estilo, peso, tamanho e família das fontes */
+.paragrafo {
+    font: italic bolder 1.5em 'Times New Roman', sans-serif;
+}

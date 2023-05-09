@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+body {
+    background-image: linear-gradient(130deg, #EFEEE9, #A3A3A0, #666664);
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #575655;
+}
+
+div {
+    color: #575655;
+    font-weight: bold;
+}
+
+div:hover {
+    color: red;
+    transition: 0.1s;
+}
+
+div > div {
+    display: none;
+    padding: 10px;
+}
+
+div:hover > div {
+    display: block;
+    color: green;
+}

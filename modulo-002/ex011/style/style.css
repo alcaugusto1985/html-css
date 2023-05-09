@@ -1,0 +1,135 @@
+@charset "utf-8";
+
+body {
+    background-color: #8C8C8C;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Configuração do cabeçalho */
+header {
+    background-color: #BFBFBD;
+    padding: 5px;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+header > section {
+    background-color: #ffffff2d;
+    padding: 2px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px #2626251c;
+}
+
+article#cabecalho > h1 {
+    font-size: 1.8em;
+    text-align: center;
+    color: #262625;
+}
+
+article#cabecalho > nav {
+    display: inline;
+}
+
+nav > a {
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #262625;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+    color: red;
+    transition: 0.2s;
+}
+
+/* Corpo da página */
+main {
+    background-color: #BFBFBD;
+    padding: 5px;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+section#noticias {
+    background-color: #ffffff2d;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px #2626251c;
+}
+
+
+section#noticias > h2 {
+    color: #262625;
+}
+
+h2.titulo {
+    text-decoration: underline;
+}
+
+section#esportes {
+    background-color: #ffffff2d;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px #2626251c;
+}
+section#esportes > h2 {
+    color: #262625;
+}
+
+article > h2 {
+    color: #262625;
+}
+
+article.news > p {
+    text-align: justify;
+}
+
+article.times > p {
+    text-align: justify;
+}
+
+/* Categoria de times */
+article.times > h2#fla {
+    color: red;
+    font-weight: bolder;
+}
+
+article.times > h2#vas {
+    color: #262625;
+    font-weight: bolder;
+}
+
+article.times > h2#flu {
+    color: green;
+    font-weight: bolder;
+}
+
+article.times > h2#bot {
+    color: black;
+    font-weight: bolder;
+}
+
+/* Rodapé da página */
+footer {
+    background-color: #BFBFBD;
+    padding: 5px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+    color: #262625;
+    margin: 10px;
+}
+
+footer > section#rodape {
+    background-color: #ffffff2d;
+    padding: 2px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px #2626251c;
+}

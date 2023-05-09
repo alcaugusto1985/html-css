@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Exercício 9</title>
+</head>
+<body>
+    <h1>Trabalhando com imagens:</h1>
+    <hr>
+    <h2>Imagens adaptáveis ao tamanho de tela:</h2>
+    <!-- Utilizamos a tag <picture> e dentro dela adicionamos as imagens -->
+    <picture>
+    <!-- Utilizar as tags <source : media : type>, carregando os parâmetros da imagem -->
+        <source media="(max-width: 750px)" srcset="imagens/rj-p.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="imagens/rj-m.jpg" type="image/jpg">
+    <!-- Sempre carregar a imagem padrão a base (em baixo) -->
+        <img src="imagens/rj-g.jpg" alt="Imagem do Rio de Janeiro">
+    </picture>
+</body>
+</html>

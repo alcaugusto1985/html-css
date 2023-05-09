@@ -1,0 +1,6 @@
+/* Comandos para aplicar efeito gradiente no background */
+/* background-attachment: fixed; utilizado para que o efeito gradiente não fique cortado */
+body {
+    background-image: linear-gradient(130deg, #c2bcbc, #918a8a, #363535);
+    background-attachment: fixed;
+}
