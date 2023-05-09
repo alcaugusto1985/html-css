@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+div.imagens {
+    display: inline-block;
+    background-color: darkgrey;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+}
+/* Aplicando background de imagem no body */
+body {
+    background-image: url(../imagens/wallpaper001.jpg);
+}
+/* Aplicando bacground simples de cor na div */
+div#q1 {
+    background-color: aqua;
+}
+/* Aplicando background com efeito gradiente na div */
+div#q2 {
+    background-image: linear-gradient(to bottom, yellow, orange);
+}
+/* Aplicando background de imanem na div */
+div#q3 {
+    background-image: url(../imagens/pattern003.png);
+}
