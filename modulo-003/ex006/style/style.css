@@ -6,18 +6,23 @@
 
 body {
     height: 97vh;
-    background-image: url('../imagens/wallpaper002.jpg');
+    /* background-image: url('../imagens/wallpaper002.jpg');
     background-position: center center;
     background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; */
+
+    /* Modo short para declarar um background */
+    background: black url('../imagens/wallpaper002.jpg') center center no-repeat fixed;
     background-size: cover;
 }
 
 main {
     min-width: 260px;
     max-width: 600px;
-    background-color: #ffffffa2;
+    background-color: #ffffffdc;
     margin: auto;
-    padding: 20px;
+    padding: 15px;
     border-radius: 20px;
 }
 
@@ -27,4 +32,6 @@ main > h1 {
 
 main > p {
     text-align: justify;
+    text-indent: 30px;
+    line-height: 1.8em;
 }
