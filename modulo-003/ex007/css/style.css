@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+#section {
+    height: 500px;
+    background-color: purple;
+    background-image: url(../imagens/target001.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 10px;
+}
+/* Centralizando o article ao centro da tela */
+#article {
+    height: 200px;
+    width: 400px;
+    position: absolute;
+    background-color: yellow;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
