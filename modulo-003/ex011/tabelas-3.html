@@ -10,11 +10,12 @@
 <body>
     <h1>Criando tabelas semanticamente corretas</h1>
     <table>
+        <caption>Identificação de pessoas</caption>
         <thead>
             <tr>
-                <th class="head">Nome</th>
-                <th class="head">Idade</th>
-                <th class="head">D. Nasc</th>
+                <th class="head" scope="col">Nome</th>
+                <th class="head" scope="col">Idade</th>
+                <th class="head" scope="col">D. Nasc</th>
             </tr>
         </thead>
         <tbody>
@@ -41,7 +42,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th class="foot">T. Pessoas:</th>
+                <th class="foot" scope="row">T. Pessoas:</th>
                 <td class="num">4</td>
             </tr>
         </tfoot>
