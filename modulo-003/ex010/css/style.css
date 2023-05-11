@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    background-color: #a0a0a0;
+    border: 1px solid #000000;
+    font-weight: bold;
+    color: #ff0000;
+    padding: 5px;
+    height: 110px;
+    width: 110px;
+    text-align: left; /* Texto alinhado horizontalmente ao lado esquerdo das células da tabela */
+    vertical-align: top; /* Texto alinhado verticalmente ao topo das células da tabela */
+}
