@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.head {
+    background-color: #808080;
+    color: #ffffff;
+}
+
+th, td {
+    border: 1px solid #000000;
+    width: 150px;
+}
+
+.d-nomes {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.num {
+    text-align: right;
+    color: #ff0000;
+}
+
+.foot {
+    background-color: #808080;
+    color: #ffffff;
+    text-align: left;
+}
