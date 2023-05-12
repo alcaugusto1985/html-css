@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+table {
+    border: 1px solid #000000;
+    border-collapse: collapse;
+}
+
+th {
+    padding: 5px;
+}
+
+.dados {
+    border: 1px solid #000000;
+}
+
+.titulo {
+    background-color: #4e4e4e;
+    color: #ffffff;
+    
+}
+
+.idade {
+    text-align: right;
+}
+
+.nasc {
+    text-align: center;
+}
+
+tfoot > tr > td {
+    text-align: right;
+}
+
+tfoot > tr > th {
+    text-align: left;
+}
+
+.total {
+    background-color: #4e4e4e;
+    color: #ffffff;
+}

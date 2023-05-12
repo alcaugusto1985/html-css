@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Mesclagem de tabelas</title>
+</head>
+<body>
+    <h1>Tabelas com mesclagem de células</h1>
+    <table>
+        <thead>
+            <tr>
+                <th class="titulo dados">Nome</th>
+                <th class="titulo dados">D.Nascimento</th>
+                <th class="titulo dados">Idade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="dados">André</td>
+                <td class="dados nasc">31/01/1985</td>
+                <td class="dados idade">38</td>
+            </tr>
+            <tr>
+                <td class="dados">Luana</td>
+                <td class="dados nasc">17/12/1984</td>
+                <td class="dados idade">38</td>
+            </tr>
+            <tr>
+                <td class="dados">Sandra</td>
+                <td class="dados nasc">09/05/1959</td>
+                <td class="dados idade">64</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th class="dados total">Total:</th>
+                <td class="dados" colspan="2">3</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
