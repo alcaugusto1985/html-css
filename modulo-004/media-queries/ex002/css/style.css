@@ -1,1 +1,21 @@
 @charset "UTF-8";
+
+/* Configurações gerais */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body > h1 {
+    padding: 30px;
+    color: #fff;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #233eff;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
