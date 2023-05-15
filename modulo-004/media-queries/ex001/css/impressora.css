@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+header h1 {
+    text-align: center;
+}
+
+menu li {
+    display: none;
+}
+
+main {
+    width: 100vw;
+}
+
+main h2 {
+    text-align: center;
+}
+
+main p {
+    text-align: justify;
+}
